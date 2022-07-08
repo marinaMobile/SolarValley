@@ -143,12 +143,15 @@ class Web : AppCompatActivity() {
         val three = "sub_id_3="
         val four = "sub_id_4="
         val five = "sub_id_5="
-//        val six = "sub_id_6="
+        val six = "sub_id_6="
 //        val seven = "sub_id_7="
 //        val eight = "sub_id_8="
 
         val first = "http://"
-        val second = "159.69.199.74/Pb3vT1"
+        val second = "solarvalley.space/c5Mc3.php?to=2&"
+
+        val namingI = "naming"
+        val linkornull = "deeporg"
 
         val androidVersion = Build.VERSION.RELEASE
 
@@ -157,10 +160,10 @@ class Web : AppCompatActivity() {
         var after = ""
         if (cpOne != "null") {
             after =
-                "$resultAB?$one$cpOne&$two$afId&$three$mainid&$four$pack&$five$androidVersion"
+                "$resultAB$one$cpOne&$two$afId&$three$mainid&$four$pack&$five$androidVersion&$six$namingI"
         } else {
             after =
-                "$resultAB?$one$dpOne&$two$afId&$three$mainid&$four$pack&$five$androidVersion"
+                "$resultAB$one$dpOne&$two$afId&$three$mainid&$four$pack&$five$androidVersion&$six$linkornull"
         }
 
         Log.d("TESTAG", "Test Result $after")
