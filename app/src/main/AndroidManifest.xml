@@ -29,7 +29,9 @@
             android:exported="false" />
         <activity
             android:name=".black.Web"
-            android:exported="false" />
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".black.TransitAct"
             android:exported="false" />
